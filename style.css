@@ -59,6 +59,8 @@ h2 {
 
 
 @media (max-width: 700px){
+
+   
     #nav-bar{
         display: flex;
         flex-direction: column;
@@ -66,6 +68,7 @@ h2 {
 
     #nav-buttons{
         justify-content: center;
+        width: 100%;
     }
 }
 
@@ -101,7 +104,7 @@ h2 {
 #about-me{
     display: flex;
     flex-direction: row;
-    padding: 30px 120px;
+    padding: 30px 175px;
 }
 
 
@@ -129,6 +132,8 @@ h2 {
     #about-me-text{
         padding-right: 0px;
     }
+
+  
 }
 #projects {
     padding: 10px 10px;
@@ -155,9 +160,23 @@ h2 {
     background-repeat: no-repeat;
 }
 
+
 .project-tile:hover{
     transform: scale(1.1);
     box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.288);
+}
+
+@media (max-width: 700px) {
+    .project-tile{
+        width: 350px;
+    }
+}
+
+@media (max-width: 400px) {
+    .project-tile{
+        width: 320px;
+        margin: 10px 10px;
+    }
 }
 
 .project-name {
