@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway|Titillium+Web&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <div id="nav-bar">
@@ -128,18 +129,21 @@
     <h1>Links</h1>
     <p class="section-description">Want to learn more? Email me or check out my Linkedin and Github profiles!</p>
     <div id="links">
-        <div class="contact-link"><a href="mailto: dseng905@gmail.com">
+        <div class="contact-link" onmouseover="LinkHover('E-Mail')" onmouseout="LinkNoHover()"><a href="mailto: dseng905@gmail.com">
             <img src="https://ionicons.com/ionicons/svg/md-mail.svg" alt="Email" width="70" height="70">
         </a></div>
-        <div class="contact-link"><a target="_blank" href="https://www.linkedin.com/in/sovanarung-seng/">
+        <div class="contact-link" onmouseover="LinkHover('LinkedIn')" onmouseout="LinkNoHover()"><a target="_blank" href="https://www.linkedin.com/in/sovanarung-seng/">
             <img src="https://ionicons.com/ionicons/svg/logo-linkedin.svg" alt="Linkedin" width="70" height="70">
         </a></div>
-        <div class="contact-link"><a id="profile-link" target="_blank" href="https://github.com/dseng905">
+        <div class="contact-link" onmouseover="LinkHover('GitHub')" onmouseout="LinkNoHover()"><a id="profile-link" target="_blank" href="https://github.com/dseng905">
             <img src="https://ionicons.com/ionicons/svg/logo-github.svg" alt="GitHub" width="70" height="70">
         </a></div>
-        <div class="contact-link"><a id="profile-link" target="_blank" href="https://codepen.io/dseng905">
+        <div class="contact-link" onmouseover="LinkHover('CodePen')" onmouseout="LinkNoHover()"><a id="profile-link" target="_blank" href="https://codepen.io/dseng905">
             <img src="https://ionicons.com/ionicons/svg/logo-codepen.svg" alt="CodePen" width="70" height="70">
         </a></div>
+    </div>
+    <div id="link-text-container">
+        <p id="link-text">&nbsp;</p>
     </div>
     <div id="footer">
         <p>Copyright &copy; 2019 Sovanarung Seng. All rights reserved.</p>

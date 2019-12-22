@@ -208,14 +208,29 @@ h2 {
     background-color: lightblue;
 }
 
+#link-text-container {
+    margin: 0px;
+    padding: 0px;
+}
+#link-text {
+    text-align: center;
+    font-size: 2em;
+    padding: 0px;
+    margin: 0px;
+    opacity: 0;
+    
+}
+
 .section-description{
     text-align: center;
 }
+
+
 
 #footer{
     background-color:  rgba(255, 0, 76, 0.85);
     color: white;
     padding: 2px 10px;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: right;
 }
