@@ -139,12 +139,15 @@ h2 {
 
   
 }
+
 #projects {
+    display: flex;
+    flex-direction: column;
     padding: 10px 10px;
     margin: 0px 0px;
 }
 
-#project-tiles{
+.project-tiles{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
