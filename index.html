@@ -16,7 +16,11 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway|Titillium+Web&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+    <script type="text/babel" src="projects.js"></script>
+    <script type="text/javascript" src="links.js"></script>
 </head>
 <body>
     <div id="nav-bar">
@@ -53,91 +57,7 @@
             <img  alt="me" width="400"src="https://i.imgur.com/DlCboYe.jpg">
         </div>
     </div>
-    </div>
-    <div id="projects">
-        <h1>Projects</h1>
-        <h2>Hardware and Embedded Systems</h2>
-        <div id="project-tiles">
-            <a class="project-link" target="_blank" href="https://docs.google.com/document/d/1wT1S1324fO0LxK86xwpTdJn81-SEP7ao4ytRL93hQKc/edit?usp=sharing">
-                <div class="project-tile"
-                    style="background-size: cover; background-image: url(https://i.imgur.com/prFowyE.jpg);">
-                    <p class="project-name">FPGA Bitcoin Hash Processor</p>
-                </div>
-            </a>
-            <a class="project-link" target="_blank" href="https://docs.google.com/document/d/1JtUVkRsRLrAaWaiOdxukS7kyMy0c8IBxFchdLR_HPT8/edit?usp=sharing">
-                    <div class="project-tile"
-                        style="background-size: cover; background-image: url(https://i.imgur.com/PbfEpKG.jpg);">
-                        <p class="project-name">Autonomous RC Car</p>
-                    </div>
-            </a>
-            <a class="project-link" target="_blank" href="https://photos.google.com/share/AF1QipNZctGlf5aGEsAyZ8rhYNsmHrPgK2QWrbr-7oeHIeh2g2_65bDxtqfNeQ7D97WU-g?key=YTYxMjBmMW9sZGVUV1FRam1WMHFWVzJqcmJ5UHBR">
-                    <div class="project-tile"
-                        style="background-size: cover; background-image: url(https://i.imgur.com/V9g4svK.jpg);">
-                        <p class="project-name">Mini Elevator with LabVIEW</p>
-                    </div>
-            </a>
-            <a class="project-link" target="_blank" href="https://docs.google.com/presentation/d/1WN0Nm8zFzONeVW_4F5wavhkh3S15ayiqrDVM7xgI214/edit?usp=sharing">
-                    <div class="project-tile"
-                        style="background-size: cover; background-image: url(https://i.imgur.com/R0Ztm4Z.png);">
-                        <p class="project-name">Mooring Communications System</p>
-                    </div>
-            </a>
-            <a class="project-link" target="_blank" href="https://docs.google.com/document/d/1yxehST1amab3NObp262U4sAW_G3TbAO7B9ceYBcuQIw/edit?usp=sharing">
-                    <div class="project-tile"
-                        style="background-size: cover; background-image: url(https://i.imgur.com/kgcb0Zw.jpg);">
-                        <p class="project-name">Heat Stress Monitor</p>
-                    </div>
-                </a>
-            <!-- Copy this code to create a project tile
-                <a class="project-link" target="_blank" href="">
-                <div class="project-tile"
-                    style="background-size: contain; background-image: url();">
-                    <p class="project-name">FPGA Bitcoin Hash Processor</p>
-                </div>
-            </a>
-            -->
-        </div>
-        <h2>Web Development</h2>
-        <div id="project-tiles">
-            <a class="project-link" target="_blank" href="https://codepen.io/dseng905/full/poJJzeo">
-                <div class="project-tile"
-                 style="background-image: url(https://i.imgur.com/PKj1yiB.jpg); background-size:contain;">
-                    <p class="project-name">Pomodoro Clock</p>
-                </div>
-            </a>
-            <a class="project-link" target="_blank" href="https://codepen.io/dseng905/full/WNvveOq">
-                <div class="project-tile"
-                 style="background-image: url(https://i.imgur.com/nmX9WxX.jpg); background-size:contain;">
-                    <p class="project-name">Simple Calculator</p>
-                </div>
-            </a>
-            <a class="project-link" target="_blank" href="https://codepen.io/dseng905/pen/NWPWewj">
-                <div class="project-tile"
-                 style="background-image: url(https://i.imgur.com/Io0wFPe.jpg); background-size:contain;">
-                    <p class="project-name">Tribute Page</p>
-                </div>
-            </a>
-            <a class="project-link" target="_blank" href="https://codepen.io/dseng905/full/povvXWo">
-                <div class="project-tile"
-                style="background-size: contain; background-image: url(https://i.imgur.com/EYCSxQ8.jpg);">
-                    <p class="project-name">Survey Page</p>
-                </div>
-            </a>
-            <a class="project-link" target="_blank" href="https://codepen.io/dseng905/full/XWJbyNJ">
-                <div class="project-tile"
-            style="background-size: contain; background-image: url(https://i.imgur.com/Ln9ZsPo.jpg);">
-                <p class="project-name">Product Landing Page</p>
-            </div>
-            </a>
-            <a class="project-link" target="_blank" href="https://codepen.io/dseng905/full/GRgpYMo">
-                <div class="project-tile"
-            style="background-size: contain; background-image: url(https://i.imgur.com/ilJ3qZ5.jpg);">
-                <p class="project-name">JavaScript Documentation</p>
-            </div>
-            </a>
-            
-        </div>
-    </div>
+    <div id="projects-render"></div>
     <h1>Links</h1>
     <p class="section-description">Want to learn more? Email me or check out my Linkedin and Github profiles!</p>
     <div id="links">
