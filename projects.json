@@ -5,26 +5,36 @@
       "projects": [
         {
           "name": "Pomodoro Clock",
+          "desc": "Timer that splits time into short, adjustable sessions to perform task productively",
+          "tech": ["JavaScript", "React.js"],
           "img": "https://i.imgur.com/PKj1yiB.jpg",
           "url": "https://codepen.io/dseng905/full/poJJzeo"
         },
         {
           "name": "Simple Calculator",
+          "desc": "Calculator that performs simple arithmetic such as addition, subtraction, multiplication, and division",
+          "tech": ["JavaScript", "React.js", "Math.js"],
           "img": "https://i.imgur.com/nmX9WxX.jpg",
           "url":"https://codepen.io/dseng905/full/WNvveOq"
         },
         {
           "name": "Markdown Previewer",
+          "desc": "App that renders text written in Markdown language in real-time",
+          "tech": ["JavaScript", "Markdown", "React.js"],
           "img": "https://i.imgur.com/8viiIQ1.jpg",
           "url": "https://codepen.io/dseng905/full/bGdexVP"
         },
         {
           "name": "Random Quote Machine",
+          "desc": "Displays random quotes from historical figures such as Abraham Lincoln and Lao Tzu",
+          "tech": ["JavaScript", "React.js"],
           "img": "https://i.imgur.com/qGfRxxG.jpg",
           "url": "https://codepen.io/dseng905/full/RwPaGMb"
         },
         {
           "name": "Drum Machine",
+          "desc": "Set of Buttons that plays short sounds to create music",
+          "tech": ["JavaScript", "React.js"],
           "img": "https://i.imgur.com/q87iEtl.jpg",
           "url": "https://codepen.io/dseng905/full/xxGqqLw"
         }
@@ -35,26 +45,36 @@
       "projects": [
         {
           "name": "FPGA Bitcoin Hash Processor",
+          "desc": "Processor utilizing fast FPGA digital logic to produce Bitcoin values",
+          "tech": ["SystemVerilog", "FPGA"],
           "img": "https://i.imgur.com/prFowyE.jpg",
           "url": "https://docs.google.com/document/d/1wT1S1324fO0LxK86xwpTdJn81-SEP7ao4ytRL93hQKc/edit?usp=sharing"
         },
         {
-          "name": "Autonomous RC",
+          "name": "Autonomous RC Car",
+          "desc": "RC Car that drives around a track and follows other cars autonomously",
+          "tech": ["Python", "Tensorflow", "Machine Learning", "Sensors"],
           "img": "https://i.imgur.com/PbfEpKG.jpg",
           "url": "https://docs.google.com/document/d/1JtUVkRsRLrAaWaiOdxukS7kyMy0c8IBxFchdLR_HPT8/edit?usp=sharing"
         },
         {
           "name": "Mooring Communications System",
+          "desc": "System that reads from an ocean sensor and parses and sends the data to the cloud",
+          "tech": ["C++", "Arduino"],
           "img": "https://i.imgur.com/R0Ztm4Z.png",
           "url": "https://docs.google.com/presentation/d/1WN0Nm8zFzONeVW_4F5wavhkh3S15ayiqrDVM7xgI214/edit?usp=sharing"
         },
         {
           "name": "Mini Elevator",
+          "desc": "Elevator model embedded with a state-machine architecture",
+          "tech": ["LabVIEW", "myRIO"],
           "img": "https://i.imgur.com/V9g4svK.jpg",
           "url": "https://photos.google.com/share/AF1QipNZctGlf5aGEsAyZ8rhYNsmHrPgK2QWrbr-7oeHIeh2g2_65bDxtqfNeQ7D97WU-g?key=YTYxMjBmMW9sZGVUV1FRam1WMHFWVzJqcmJ5UHBR"
         },
         {
           "name": "Heat Stress Monitor",
+          "desc": "Device that reads physiological data such as skin resistance to determine if the user is experiecing heat stress",
+          "tech": ["C++", "Arduino"],
           "img": "https://i.imgur.com/kgcb0Zw.jpg",
           "url": "https://docs.google.com/document/d/1yxehST1amab3NObp262U4sAW_G3TbAO7B9ceYBcuQIw/edit?usp=sharing"
         }
