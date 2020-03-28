@@ -48,6 +48,19 @@ h2 {
     align-items: center;
     justify-content: center;
     transition: top 0.3s;
+    animation: navFade ease-out 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-delay: 1s
+}
+
+@keyframes navFade {
+    0% {
+        top: -80px;
+    }
+    100% {
+        top: 0;
+    }
 }
 
 
@@ -115,7 +128,18 @@ h2 {
     text-align: center;
     height: 100vh;
     color: black; 
-    
+    animation: backgroundFade ease-out 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+
+@keyframes backgroundFade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 #welcome-text {
@@ -128,6 +152,21 @@ h2 {
     height: 300px;
     padding: 35px 0px;
     transition: ease 0.5s;
+    animation: fadeInAnimation ease 0.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-delay: 0.3s;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        height: 0;
+    }
+    100% {
+        opacity: 1;
+        height: 300px;
+    }
 }
 
 #welcome-text:hover {
