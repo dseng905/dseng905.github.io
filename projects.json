@@ -4,6 +4,13 @@
       "title": "Web Development",
       "projects": [
         {
+          "name": "Exercise Tracker",
+          "desc": "App that adds, removes, and retrieves exercises in a user's log",
+          "tech": ["JavaScript", "Node.js", "Express.js", "MongoDB"],
+          "img": "https://i.imgur.com/BvxfJYy.jpg",
+          "url": "https://dseng905-exercise-tracker.glitch.me/"
+        },
+        {
           "name": "Pomodoro Clock",
           "desc": "Timer that splits time into short, adjustable sessions to perform task productively",
           "tech": ["JavaScript", "React.js"],
