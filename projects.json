@@ -6,7 +6,7 @@
 		{
           "name": "Anonymous Message Board",
           "desc": "Board where threads and replies are created without user profiles",
-          "tech": ["JavaScript", React.js", "Node.js", "Express.js", "MongoDB"],
+          "tech": ["JavaScript", "React.js", "Node.js", "Express.js", "MongoDB"],
           "img": "https://i.imgur.com/1ejyRTU.jpg",
           "url": "https://dseng905-anonymous.herokuapp.com/"
         },
