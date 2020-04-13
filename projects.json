@@ -3,6 +3,13 @@
     {
       "title": "Web Development",
       "projects": [
+		{
+          "name": "Anonymous Message Board",
+          "desc": "Board where threads and replies are created without user profiles",
+          "tech": ["JavaScript", React.js", "Node.js", "Express.js", "MongoDB"],
+          "img": "https://i.imgur.com/1ejyRTU.jpg",
+          "url": "https://dseng905-anonymous.herokuapp.com/"
+        },
         {
           "name": "Exercise Tracker",
           "desc": "App that adds, removes, and retrieves exercises in a user's log",
@@ -16,13 +23,6 @@
           "tech": ["JavaScript", "React.js"],
           "img": "https://i.imgur.com/PKj1yiB.jpg",
           "url": "https://codepen.io/dseng905/full/poJJzeo"
-        },
-        {
-          "name": "Simple Calculator",
-          "desc": "Calculator that performs simple arithmetic such as addition, subtraction, multiplication, and division",
-          "tech": ["JavaScript", "React.js", "Math.js"],
-          "img": "https://i.imgur.com/nmX9WxX.jpg",
-          "url":"https://codepen.io/dseng905/full/WNvveOq"
         },
         {
           "name": "Markdown Previewer",
