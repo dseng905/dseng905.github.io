@@ -8,7 +8,7 @@
           "desc": "Board where threads and replies are created without user profiles",
           "tech": ["JavaScript", "React.js", "Node.js", "Express.js", "MongoDB"],
           "img": "https://i.imgur.com/1ejyRTU.jpg",
-          "url": "https://dseng905-anonymous.herokuapp.com/"
+          "url": "https://dseng905-anonymous-message-board.glitch.me/"
         },
         {
           "name": "Exercise Tracker",
