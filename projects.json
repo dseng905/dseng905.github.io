@@ -9,6 +9,13 @@
           "tech": ["Flutter", "Dart", "Android", "iOS"],
           "img": "https://i.imgur.com/qYBUDsN.jpg",
           "url": "https://github.com/dseng905/bmi-calculator-mobile"
+        },
+        {
+          "name": "Flash Chat",
+          "desc": "A chat app with a single chat room where anyone can talk",
+          "tech": ["Flutter", "Dart", "Firebase", "Android", "iOS"],
+          "img": "https://i.imgur.com/4aaD0mY.jpg",
+          "url": "https://github.com/dseng905/flash-chat"
         }
       ]
     },
