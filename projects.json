@@ -1,6 +1,18 @@
 {
   "projects": [
     {
+      "title": "Mobile App Development",
+      "projects": [
+        {
+          "name": "BMI Calculator",
+          "desc": "A simple mobile app to calculate your Body-Mass Index (BMI)",
+          "tech": ["Flutter", "Dart", "Android", "iOS"],
+          "img": "https://i.imgur.com/qYBUDsN.jpg",
+          "url": "https://github.com/dseng905/bmi-calculator-mobile"
+        }
+      ]
+    },
+    {
       "title": "Web Development",
       "projects": [
 		{
