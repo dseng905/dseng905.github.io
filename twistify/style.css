@@ -9,7 +9,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     background-color: #009688;
     color: white;
     font-family: 'Nunito Sans', sans-serif;
@@ -33,6 +32,8 @@ body {
     width: 300px;
 }
 
+
+
 #twistify-header {
     display: flex;
     flex-direction: column;
@@ -55,4 +56,22 @@ body {
 
 #twistify-info-image {
     padding: 0px 0px 0px 50px;
+}
+
+@media (max-width: 500px) {
+    #twistify-intro {
+        flex-direction: column;
+        height: 150vh;
+        background-size: 400px;
+        justify-content: flex-start;
+    }
+
+    #twistify-info {
+        width: 100%;
+        padding: 0px 60px;
+    }
+
+    #twistify-info-image {
+        padding: 0px;
+    }
 }
