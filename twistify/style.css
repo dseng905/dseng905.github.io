@@ -46,6 +46,7 @@ body {
 }
 
 #twistify-subtitle {
+    font-size: 25px;
     font-weight: 300;
     text-align: center;
 }
@@ -61,7 +62,7 @@ body {
 @media (max-width: 500px) {
     #twistify-intro {
         flex-direction: column;
-        height: 150vh;
+        height: 1200px;
         background-size: 400px;
         justify-content: flex-start;
     }
