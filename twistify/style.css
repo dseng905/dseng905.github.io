@@ -44,7 +44,7 @@ body {
 
 .container-white {
     justify-content: flex-end;
-    background-color:whitesmoke;
+    background-color:rgb(228, 228, 228);
     padding: 0px 10%;
     color: black;
 }
