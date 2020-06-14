@@ -7,6 +7,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #009688;
@@ -14,16 +15,70 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-#twistify-intro {
+/* Classes  */
+.page-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+}
+
+
+
+.container-white {
+    justify-content: flex-end;
+    background-color:whitesmoke;
+    padding: 0px 10%;
+    color: black;
+}
+
+.container-black {
+    justify-content: flex-end;
+    padding: 0px 10%;
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+.container-white-image, .container-black-image{
+    padding: 0px 60px 0px 0px
+}
+
+.container-green {
+    justify-content: flex-start;
+    padding: 0px 10%;
+    background-color: #009688;
+}
+
+.container-green-image {
+    padding: 0px 0px 0px 60px;
+}
+
+
+
+
+/* Intro section */
+#twistify-intro {
     background-image: url("undraw_mobile_user_7oqo.svg");
     background-repeat: no-repeat;
     background-size: 500px;
     background-position: right bottom;
-    height: 100vh;
-    width: 100%;
 }
 
 #twistify-info {
@@ -31,8 +86,6 @@ body {
     flex-direction: column;
     width: 300px;
 }
-
-
 
 #twistify-header {
     display: flex;
@@ -59,20 +112,73 @@ body {
     padding: 0px 0px 0px 50px;
 }
 
-@media (max-width: 500px) {
-    #twistify-intro {
+
+/* Practice Phrases Information */
+#twistify-practice {
+    background-image: url("undraw_speech_to_text_9uir.svg");
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: left bottom;
+}
+
+
+/* Challenge Information */
+#twistify-challenge {
+    background-image: url("undraw_personal_opinions_g3kr.svg");
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: right bottom;
+}
+
+#twistify-dark-mode {
+    background-image: url("undraw_night_calls_5jh7.svg");
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: left bottom;
+}
+
+#twistify-end {
+    justify-content: center;
+    text-align: center;
+    background-image: url("undraw_recording_lywr.svg");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: right bottom;
+}
+
+@media (max-width: 600px) {
+    .page-container {
+        padding: 50px 60px;
         flex-direction: column;
         height: 1200px;
         background-size: 400px;
         justify-content: flex-start;
     }
 
+    .container-white, 
+    .container-black {
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    .container-white-image,
+    .container-green-image,
+    .container-black-image {
+        padding: 0px;
+    }
+
+    .info {
+        padding: 0px 0px 60px 0px;
+        width: 100%;
+    }
+
     #twistify-info {
         width: 100%;
-        padding: 0px 60px;
+        padding: 0px 0px;
     }
 
     #twistify-info-image {
         padding: 0px;
     }
 }
+
