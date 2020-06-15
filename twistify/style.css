@@ -13,6 +13,7 @@ body {
     background-color: #009688;
     color: white;
     font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 /* Classes  */
@@ -77,7 +78,7 @@ body {
 #twistify-intro {
     background-image: url("undraw_mobile_user_7oqo.svg");
     background-repeat: no-repeat;
-    background-size: 500px;
+    background-size: 450px;
     background-position: right bottom;
 }
 
@@ -119,6 +120,7 @@ body {
     background-repeat: no-repeat;
     background-size: 450px;
     background-position: left bottom;
+
 }
 
 
@@ -187,8 +189,16 @@ body {
         padding: 50px 60px;
         flex-direction: column;
         height: 1200px;
-        background-size: 400px;
         justify-content: flex-start;
+    }
+
+    #twistify-intro,
+    #twistify-practice,
+    #twistify-challenge,
+    #twistify-dark-mode,
+    #twistify-end {
+        background-size: 400px;
+        background-position: center bottom;
     }
 
     .container-white, 
@@ -196,6 +206,7 @@ body {
         justify-content: flex-end;
         flex-direction: column-reverse;
     }
+
 
     .container-white-image,
     .container-green-image,
