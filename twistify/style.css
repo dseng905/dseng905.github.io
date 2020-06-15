@@ -137,6 +137,42 @@ body {
     background-position: left bottom;
 }
 
+[data-aos="twistify-practice-background"] {
+    background-color: #009688;
+    transition-property: background-color;
+}
+
+[data-aos="twistify-practice-background"].aos-animate {
+    background-color: rgb(228, 228, 228);
+}
+
+[data-aos="twistify-challenge-background"] {
+    background-color: rgb(228, 228, 228);
+    transition-property: background-color;
+}
+
+[data-aos="twistify-challenge-background"].aos-animate {
+    background-color: #009688;
+}
+
+[data-aos="twistify-dark-mode-background"] {
+    background-color: #009688;
+    transition-property: background-color;
+}
+
+[data-aos="twistify-dark-mode-background"].aos-animate {
+    background-color: rgb(59, 59, 59);
+}
+
+[data-aos="twistify-end-background"] {
+    background-color: rgb(59, 59, 59);
+    transition-property: background-color;
+}
+
+[data-aos="twistify-end-background"].aos-animate {
+    background-color: #009688;
+}
+
 #twistify-end {
     justify-content: center;
     text-align: center;
