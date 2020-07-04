@@ -23,6 +23,7 @@
     <script type="text/javascript" src="links.js"></script>
 </head>
 <body>
+    <!-- Navigation Bar -->
     <div id="nav-bar">
         <a id="website-name" href=#welcome>Davin Seng</a>
         <div id="nav-buttons">
@@ -33,6 +34,7 @@
             </nav>
         </div>
     </div>
+    <!-- Welcome screen -->
     <div id="welcome-start">
         <div id="welcome">
             <div id="welcome-text">
@@ -42,24 +44,50 @@
             </div>
         </div>
     </div>
+    <!-- About me -->
     <h1 id="about">About Me</h1>
     <div id="about-me">
         <div id="about-me-text">
-            <p>Hi! My name is Sovanarung Seng. You can call me Davin. I am an engineer who is interested in electronics and software development.
-                I recently graduated from University of California, San Diego with a Bachelor of Science in Electrical Engineering.
+            <p>Hi! My name is Sovanarung Seng. You can call me Davin. I am a software engineer who is interested in web and mobile app development.
+                I graduated from University of California, San Diego with a Bachelor of Science in Electrical Engineering in June 2019.
             </p>
             <p>Throughout my time in college,
-                 I have done several projects involving embedded systems, IoT, and software programming. Some of these projects include an EMG videogame controller
-                 and an autononmous RC car! In these projects, I worked with a diverse group of people coming from disiplines such as chemistry, computer science, and biomedical engineering.</p>
-            <p>The world is big and diverse. So I tend to be a curious and open-minded person and always want to learn more especially outside of my specialty.
-                Outside of engineering, I enjoy playing videogames, hiking, and listening to 80's New Wave and indie music!
+                 I have done several projects including an EMG videogame controller
+                 and an autononmous RC car where I programmed in C++ and Python! While working on these projects, I became more interested in the field of software engineering, and so I taught myself web and mobile app development. I am skilled in JavaScript, React.js, Node.js, SQL, and NoSQL for full-stack web development and use Flutter and Dart for mobile app development.</p>
+            <p>Outside of engineering, I enjoy playing videogames, hiking, and listening to 80's New Wave and indie music! The world is big and diverse. So I tend to be a curious and open-minded person and always want to learn more especially outside of my specialty.
             </p>
         </div>
         <div id="about-me-pic">
             <img  alt="me" width="400"src="https://i.imgur.com/DlCboYe.jpg">
         </div>
     </div>
+    <h1>Projects</h1>
+    <!-- Featured Projects -->
+    <div id="twistify" class="featured-project">
+        <!-- Twistify -->
+        <div id="twistify-description" class="featured-project-info">
+            <img id="twistify-icon" src="twistify/knot_green.svg" height="100" alt="Twistify logo">
+            <h2 id="twistify-title" class="featured-project-title">Twistify</h2>
+            <p class="featured-project-description">
+                <strong>Twistify</strong> is a mobile app that tests your speech clarity with tongue twisters! Get a performance score on your pronunciation of a tongue twisters, or do a series of challenges.
+            </p>
+            <p class="featured-project-description">The app was developed with <strong>Flutter</strong> and <strong>Dart</strong> programming language and is currently available for Android. Learn more about the app in the links below.</p>
+            <a target="_blank" href="https://davinseng.com/twistify/">Landing Page</a>
+            <a target="_blank" href="https://appoftheday.downloadastro.com/app/twistify-an-app-with-tongue-twisters/">App of the Day Interview</a>
+            <a target="_blank" href='https://play.google.com/store/apps/details?id=com.dseng905.twistifyflutter&hl=en_US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img height="100" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+        </div>
+        <div class="featured-project-images">
+            <div id="twistify-image" class="featured-project-image">
+                <img class="featured-project-img" src="twistify/twistify-info.png" alt="Twistify Image" >
+            </div>
+            <div id="twistify-image" class="featured-project-image">
+                <img class="featured-project-img" src="twistify/twistify-challenge.png" alt="Twistify Image" >
+            </div>
+        </div>   
+    </div>
+    <!-- Other projects rendered with React and loaded from JSON file -->
     <div id="projects-render"></div>
+    <!-- Links for Social Media, Github, etc. -->
     <h1>Links</h1>
     <p class="section-description">Want to learn more? Email me or check out my Linkedin and Github profiles!</p>
     <div id="links">

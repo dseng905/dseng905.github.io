@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -179,6 +181,7 @@ h2 {
 #about-me{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 30px 175px;
 }
 
@@ -209,6 +212,66 @@ h2 {
     }
 
   
+}
+
+
+/* Projects section */
+
+.featured-project {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.featured-project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 0px 50px 0px 0px;
+}
+
+.featured-project-images {
+    display: flex;
+    flex-direction: row;
+}
+
+.featured-project-image {
+    padding: 0px 10px;
+}
+
+.featured-project-img {
+    max-width: 250px;
+    height: auto;
+}
+
+@media (max-width: 1000px) {
+    .featured-project{
+        flex-direction: column;
+    }
+
+    .featured-project-info {
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .featured-project-img {
+        max-width: 150px;
+        height: auto;
+    }
+}
+
+/* Twistify Project */
+#twistify-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
 }
 
 #projects {

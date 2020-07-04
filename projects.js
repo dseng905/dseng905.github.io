@@ -81,7 +81,6 @@ class ProjectLibrary extends React.Component {
   render() {
     return (
       <div id="projects">
-        <h1>Projects</h1>
         {
           this.state.projects.map((obj) => (
             <ProjectSection 
